@@ -20,7 +20,7 @@ export default function AdminPanel() {
   }, [])
 
   return (
-    <section className="min-h-screen bg-gradient-to-br from-slate-950 via-emerald-950 to-slate-900 px-4 py-8 text-white sm:px-6 lg:px-8">
+    <section className="min-h-screen bg-linear-to-br from-slate-950 via-emerald-950 to-slate-900 px-4 py-8 text-white sm:px-6 lg:px-8">
       <div className="mx-auto max-w-7xl">
         
         <div className="mb-8 flex flex-col gap-3 sm:flex-row sm:items-center sm:justify-between">
@@ -70,7 +70,7 @@ export default function AdminPanel() {
                         {enquiry.email}
                       </td>
                       <td className="px-4 py-4 text-sm text-slate-300 sm:px-6 sm:text-base">
-                        <div className="max-w-[260px] break-words sm:max-w-md">
+                        <div className="max-w-65 wrap-break-word sm:max-w-md">
                           {enquiry.message}
                         </div>
                       </td>

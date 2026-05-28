@@ -2,7 +2,7 @@ import React from 'react'
 
 export default function PageLoader() {
   return (
-    <div className="fixed inset-0 z-[9999] flex items-center justify-center bg-slate-950/95 backdrop-blur-md">
+    <div className="fixed inset-0 z-9999 flex items-center justify-center bg-slate-950/95 backdrop-blur-md">
       <div className="flex flex-col items-center gap-6">
         
         <div className="relative flex h-20 w-20 items-center justify-center">

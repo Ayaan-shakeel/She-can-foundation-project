@@ -3,8 +3,6 @@ import { Link } from 'react-router-dom'
 import { HeartHandshake,Mail } from 'lucide-react'
 import { IoLogoLinkedin } from "react-icons/io5";
 import { FaInstagram } from "react-icons/fa";
-// import { HeartHandshake, Mail, Instagram, Linkedin } from 'lucide-react'
-
 export default function Footer() {
   return (
     <footer className="border-t border-white/10 bg-emerald-950 text-white">

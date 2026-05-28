@@ -15,7 +15,7 @@ export default function About() {
           <h1 className="text-4xl font-extrabold tracking-tight sm:text-5xl lg:text-6xl">
             About Us
           </h1>
-          <div className="mx-auto mt-4 h-1 w-24 rounded-full bg-gradient-to-r from-emerald-400 to-teal-300"></div>
+          <div className="mx-auto mt-4 h-1 w-24 rounded-full bg-linear-to-r from-emerald-400 to-teal-300"></div>
         </div>
 
         <div className="grid items-center gap-10 lg:grid-cols-2 lg:gap-16">
@@ -52,7 +52,7 @@ export default function About() {
           <div className="order-1 lg:order-2">
             <div className="overflow-hidden rounded-3xl border border-white/10 bg-white/5 shadow-2xl">
               <img
-                className="h-[280px] w-full object-cover sm:h-[380px] lg:h-[520px]"
+                className="h-70 w-full object-cover sm:h-95 lg:h-130"
                 src={jointeam}
                 alt="Volunteers working together at She Can Foundation"
               />
