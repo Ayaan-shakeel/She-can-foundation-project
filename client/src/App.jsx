@@ -1,7 +1,7 @@
 import React from 'react'
 import Form from './components/Form'
 import Home from './pages/Home'
-import { Routes,Route } from 'react-router-dom'
+import { Routes,Route,Navigate } from 'react-router-dom'
 import About from './pages/About'
 import Navbar from './components/Navbar'
 import Contact from './pages/Contact'
@@ -11,8 +11,10 @@ import {useEffect, useState} from 'react'
 import PageLoader from './components/PageLoader'
 import AdminPanel from './pages/AdminPanel'
 
+
 export default function App() {
   const [loading, setLoading] = useState(true)
+  
 
   useEffect(() => {
     const timer = setTimeout(() => {
@@ -34,6 +36,8 @@ export default function App() {
         <Route path="/contact" element={<Contact/>}/>
         <Route path="/features" element={<Features/>}/>
         <Route path="/admin" element={<AdminPanel/>}/>
+        <Route path="*" element={<Navigate to="/" />} />
+
       </Routes>
       <Footer/>
     </div>
