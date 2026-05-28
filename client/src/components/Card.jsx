@@ -4,7 +4,7 @@ export default function Card({children}) {
   return (
     
 
-<div className="rounded-3xl border border-white/10 bg-white/10 p-6 shadow-2xl backdrop-blur-md">
+<div className="flex items-center justify-center  ">
 
     {/* <div className='flex items-center justify-center min-h-screen bg-linear-to-r from-purple-400 via-pink-500 to-red-500'> */}
  <motion.div

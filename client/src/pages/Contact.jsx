@@ -4,7 +4,6 @@ import Form from '../components/Form'
 export default function Contact() {
   return (
     <div className='min-h-screen '>
-        <h1>Contact US</h1>
         <Form/>
      </div>
   )

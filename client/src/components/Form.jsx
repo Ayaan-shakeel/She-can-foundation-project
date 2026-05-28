@@ -48,7 +48,7 @@ if(!emailReg.test(formData.email)){
           onSubmit={handleSubmit}
           className="w-full max-w-xl rounded-3xl border border-white/10 bg-white/10 p-5 shadow-2xl backdrop-blur-md sm:p-8"
         >
-          {/* <FormCard> */}
+        
           <div className="flex flex-col gap-5">
             <div className="text-center">
               <h2 className="text-2xl font-bold text-white sm:text-3xl">
@@ -117,7 +117,7 @@ if(!emailReg.test(formData.email)){
               Submit
             </button>
           </div>
-          {/* </FormCard> */}
+          
         </form>
       </div>
     </section>

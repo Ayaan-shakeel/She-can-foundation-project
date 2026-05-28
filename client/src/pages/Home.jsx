@@ -7,7 +7,7 @@ import Features from './Features'
 
 export default function Home() {
   return (
-    <div className='bg-linear-to-br from-slate-950 via-emerald-950 to-teal-900'>
+    <div className='bg-linear-to-br from-slate-950 via-emerald-950 to-teal-900 min-h-screen'>
       
 <Hero/>
 <About/>

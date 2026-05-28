@@ -35,7 +35,7 @@ export default function Features() {
                 decoding="async"
               />
             </div>
-            <p className="mt-6 text-center text-lg font-medium leading-8 text-slate-300">
+            <p className="mt-6 text-center text-lg font-medium leading-8 text-slate-300 mb-8">
               Supporting learning and skill development opportunities.
             </p>
           </Card>
