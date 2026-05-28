@@ -1,6 +1,5 @@
 import React, { useState } from 'react'
 import axios from 'axios'
-import { FormCard } from './FormCard'
 import { Toaster } from 'react-hot-toast'
 import toast from 'react-hot-toast'
 export default function Form() {
@@ -24,7 +23,7 @@ if(!emailReg.test(formData.email)){
     return toast.error("Please enter a valid email")
 }
       const response = await axios.post(
-        "http://localhost:7000/api/form/add-enquiry",
+        "https://she-can-foundation-ev56.onrender.com/api/form/add-enquiry",
         formData
       )
 

@@ -28,7 +28,7 @@ export const enquiryForm=async(req,res)=>{
 }
 export const getenquiries=async(req,res)=>{
     try{
-        const enquiries=await formModel.find().sort({createdAt:-1})
+        const enquiries=await formModel.find().sort({ createdAt: -1 })
         res.status(200).json({status:1,message:"Enquiries Fetched Successfully",enquiries:enquiries})
     }catch(error){
         console.log(error);

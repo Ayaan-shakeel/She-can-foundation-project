@@ -7,7 +7,7 @@ export default function AdminPanel() {
   useEffect(() => {
     const getEnquiries = async () => {
       try {
-        const res = await axios.get("http://localhost:7000/api/form/get-enquiries")
+        const res = await axios.get("https://she-can-foundation-ev56.onrender.com/api/form/get-enquiries")
         if (res.data.status === 1) {
           setEnquiries(res.data.enquiries)
         }
